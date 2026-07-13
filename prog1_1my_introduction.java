@@ -4,7 +4,7 @@ class prog1_1my_introduction{
 		
 		public static void main (String[] args){
 		
-		System.out.println("Myself gautam ");
+		System.out.println("Myself satyam ");
 		System.out.println("i have done my intermediate from tps patna");
 		System.out.println("rightnow i am pursuing bca from marwadi university rajkot");
 		System.out.println("i am  good in writting and reading hindi literature");
