@@ -11,5 +11,6 @@ class prog9pattern8{
             }
             System.out.println("");
         }
+        
     }
 }
