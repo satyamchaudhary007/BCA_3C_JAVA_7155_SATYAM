@@ -1,6 +1,8 @@
 
-import java.sql.*;
-import java.util.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.Scanner;
 
 public class Insert{
     public static void main(String[] args) {
@@ -10,9 +12,10 @@ public class Insert{
             Statement stmt = cn.createStatement();
             Scanner sc = new Scanner(System.in);
             int grno=0;
-            String name = "";
-            System.out.print("Enter grno: ");
+            System.out.print("Enter grno : ");
             grno = sc.nextInt();
+            System.out.println(" ");
+            String name = "";
             System.out.print("Enter name : ");
             name = sc.nextLine();
             try{
