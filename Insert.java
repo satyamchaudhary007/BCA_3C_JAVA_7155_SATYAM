@@ -17,7 +17,7 @@ public class Insert{
             System.out.println(" ");
             String name = "";
             System.out.print("Enter name : ");
-            name = sc.nextLine();
+            name = sc.next();
             try{
                 int x = stmt.executeUpdate("insert into stud values("+grno+",'"+name+"')");
                 System.out.println("No of row Inserted : " +x);
